@@ -10,6 +10,7 @@ Flask=="*"
 #Jinja2>0, >2.0
 Jinja2>=2.10
 gunicorn>=19.9.0
+#Flask-Login>=0.3.2
 
 [requires]
 python_version = "3.6"
