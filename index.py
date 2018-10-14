@@ -14,5 +14,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def source():
- html = 'Hello World!'
+ html = 'В разработке!'
  return html
