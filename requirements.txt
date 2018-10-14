@@ -1,11 +1,11 @@
-#Werkzeug=="0.14.1"
-Werkzeug=="*"
-#Flask=="1.0.2"
-Flask=="*"
+#Werkzeug==0.14.1
+Werkzeug==*
+#Flask==1.0.2
+Flask==*
 #Jinja2>0, >2.0
-Jinja2>="2.10"
-gunicorn>="19.9.0"
-#Flask-Login>=0.3.2
+Jinja2>=2.10
+gunicorn>=19.9.0
+#Flask-Login>=0.4.1
 
 #[requires]
-#python_version > "3.5"
+#python_version > 3.5
