@@ -1,8 +1,10 @@
 from flask import Flask
+#import urlparse
+from urllib.parse import urlparse
 import psycopg2
 import os
 
-url = urlparse.urlparse(os.environ['DATABASE_URL'])
+url = urlparse(os.environ['DATABASE_URL'])
 dbname = url.path[1:]
 user = url.username
 password = url.password
