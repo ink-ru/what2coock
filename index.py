@@ -9,13 +9,7 @@ password = url.password
 host = url.hostname
 port = url.port
 
-con = psycopg2.connect(
-            dbname=dbname,
-            user=user,
-            password=password,
-            host=host,
-            port=port
-            )
+con = psycopg2.connect(dbname=dbname, user=user, password=password, host=host, port=port)
 
 app = Flask(__name__)
 
