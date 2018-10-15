@@ -1,4 +1,4 @@
-# what2coock
+# what2cook
 what to cook from ingredients i have
 
 Local run
