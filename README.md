@@ -11,3 +11,5 @@ Local run
 PostgreSQL
 MongoDB
 Redis
+
+https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git
